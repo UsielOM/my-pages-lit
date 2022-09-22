@@ -16,6 +16,8 @@ export class MyPages extends LitElement {
 
     }
 
+    
+
     headerTemplate() {
         return html `<header>${this.article.title}</header> `;
     }
